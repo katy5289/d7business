@@ -1,0 +1,340 @@
+/* Work around for legacy IE */
+@media only screen and (min-width:320px) and (max-width:480px) {
+  .ie6-7 .mbp-c #menu-bar .menu-wrapper  ul,
+  .ie6-7 .mbp-c #menu-bar .menu-wrapper  .sf-menu li {
+    left: auto;
+  }
+}
+
+
+@media only screen and (max-width:320px) {
+#wrapper {
+    width: 100%;
+    background: url(/sites/all/themes/elimosmobi/css/images/_elimosbg.jpg) repeat-x 0 0 #3b3737; 
+    }
+
+body {
+  padding: 0 5px;
+}
+
+body.admin-menu {
+  margin-top: 0 !important;
+}
+
+#branding,
+.region-header  {
+  float: none;
+  margin: 0 0 10px;
+  width: 100%;
+  clear: both;
+  text-align: center;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.region-header .block {
+  clear: both;
+  float: none;
+  margin: 5px auto;
+  max-width: 80%;
+}
+
+.region-header .block .block-inner {
+  margin-left: 0;
+  margin-right: 0;
+  margin: auto;
+}
+
+h1#site-name {
+  font-size: 1.5em;
+}
+
+h2#site-slogan {
+    color: #FFFFFF;
+    font-size: 1em;
+    margin: 5px 0 10px 10px;
+}
+
+.region-top-menu {
+  height: auto;
+}
+
+.main-menu ul.menu {
+    background-color: #222222;
+    border-bottom: 12px solid #017DC3;
+    color: #FFFFFF;
+    height: 100%;
+}
+
+.js #menu-bar nav {
+  display: none;
+}
+
+.menu-toggle {
+  display: block;
+  float: right;
+  font-size: 1.2em;
+  margin: 0 10px 0 0;
+  padding: 0;
+  text-transform: lowercase;
+}
+
+.menu-toggle a {
+  padding: 7px 10px 10px;
+  display: block;
+}
+
+#menu-bar .menu-wrapper {
+  float: none !important;
+}
+
+#menu-bar .menu-wrapper li a,
+#menu-bar .menu-wrapper .menu li a {
+  display: block;
+  padding: 0 0.5em;
+  -moz-border-radius: 6px !important;
+  -webkit-border-radius: 6px !important;
+  border-radius: 6px !important;
+}
+
+#menu-bar .menu-wrapper li,
+#menu-bar .menu-wrapper .menu li {
+  display: block;
+  float: none;
+  margin-right: 0;
+}
+
+#menu-bar .menu-wrapper ul.menu li {
+  margin: 0;
+  padding: 0;
+}
+
+ul.sf-menu {
+  width: 100%;
+}
+
+.sf-menu.sf-style-default ul {
+  width: 100% !important;
+}
+.menu-toggle a { border-radius: 4px 4px 0 0; background-color: #999;
+    color: #fff;}
+
+#content-column, .region-sidebar-first, .region-sidebar-second {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h1#page-title {font-size: 1.3em; }
+}
+@media only screen and (min-width:321px) and (max-width:480px) {
+#wrapper {
+    width: 100%;
+    background: url(/sites/all/themes/elimosmobi/css/images/_elimosbg.jpg) repeat-x 0 0 #3b3737; 
+    }
+
+body {
+  padding: 0 5px;
+}
+
+body.admin-menu {
+  margin-top: 0 !important;
+}
+
+#branding,
+.region-header  {
+  float: none;
+  margin: 0;
+  width: 100%;
+  clear: both;
+  text-align: center;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.region-header .block {
+  clear: both;
+  float: none;
+  margin: 5px auto;
+  max-width: 80%;
+}
+
+.region-header .block .block-inner {
+  margin-left: 0;
+  margin-right: 0;
+  margin: auto;
+}
+
+#logo { float: left; padding: 0 10px; }
+
+h1#site-name { font-size: 1.5em; }
+
+h2#site-slogan { font-size: 1em; }
+
+.region-top-menu { height: auto; }
+
+.js #menu-bar nav {
+  display: none;
+}
+
+.main-menu ul.menu {
+    background-color: #222222;
+    border-bottom: 12px solid #017DC3;
+    color: #FFFFFF;
+    height: 100%;
+}
+
+.menu-toggle {
+  display: block;
+  float: right;
+  font-size: 1.2em;
+  margin: -30px 10px 0 0;
+  padding: 0;
+  text-transform: lowercase;
+}
+
+.menu-toggle a {
+  padding: 7px 10px 10px;
+  display: block;
+}
+
+#menu-bar .menu-wrapper {
+  float: none !important;
+}
+
+#menu-bar .menu-wrapper li a,
+#menu-bar .menu-wrapper .menu li a {
+  display: block;
+  padding: 0 0.5em;
+  -moz-border-radius: 6px !important;
+  -webkit-border-radius: 6px !important;
+  border-radius: 6px !important;
+}
+
+#menu-bar .menu-wrapper li,
+#menu-bar .menu-wrapper .menu li {
+  display: block;
+  float: none;
+  margin-right: 0;
+}
+
+#menu-bar .menu-wrapper ul.menu li {
+  margin: 0;
+  padding: 0;
+}
+
+ul.sf-menu {
+  width: 100%;
+}
+
+.sf-menu.sf-style-default ul {
+  width: 100% !important;
+}
+
+.menu-toggle a { border-radius: 4px 4px 0 0; background-color: #999;
+    color: #fff;}
+    
+#content-column, .region-sidebar-first, .region-sidebar-second {
+    margin:0;
+}
+
+.banner-slideshow { float: none; margin: 0 auto; }
+.flex-caption { margin: -30px 0 0 0; }
+}
+@media only screen and (min-width:481px) and (max-width:768px) {
+#wrapper {
+    width: 100%;
+    background-image: none;
+    background-color: #3b3737; 
+    }
+    
+body {
+  padding: 0 8px;
+}
+h1#site-name {
+  font-size: 1.8em;
+}
+#menu-bar .menu-wrapper li a,
+#menu-bar .menu-wrapper .menu li a {
+  padding: 0 1em;
+  font-size: .9em;
+}
+#menu-bar .menu-wrapper li,
+#menu-bar .menu-wrapper .menu li {
+  margin-right: 2px;
+}
+
+#menu-bar .menu-wrapper li a, #menu-bar .menu-wrapper .menu li a {
+    font-size: 0.9em;
+    padding: 0 0.6em;
+}
+
+#menu-bar .menu-wrapper li a, #menu-bar .menu-wrapper .menu li a {
+    margin: 0.75em 0.5em 0 1em;
+}
+
+#branding { float: left; margin: 10px 0 0; width: 70%; }
+
+#logo { width: 150px; }
+hgroup#name-and-slogan { margin: -130px 0 20px 160px; float: left; }
+
+.banner-slideshow {
+    float: none;
+    max-width: 350px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 auto; }
+
+.flex-caption { margin: -30px 0 0 0; }
+
+.block-inner { margin: 0 10px; }
+
+.online-rates-block { width: 300px; padding: 0 0 0 0; }
+}
+@media only screen and (min-width:769px) and (max-width:1024px) {
+h1#site-name {
+  font-size: 1.8em;
+}
+#menu-bar .menu-wrapper li a,
+#menu-bar .menu-wrapper .menu li a {
+  padding: 0 1.2em;
+  font-size: .94em;
+}
+#menu-bar .menu-wrapper li,
+#menu-bar .menu-wrapper .menu li {
+  margin-right: 4px;
+}
+
+#menu-bar .menu-wrapper li a, #menu-bar .menu-wrapper .menu li a {
+    margin: 0.7em 0.5em 0 1em;
+}
+
+.banner-slideshow {
+    float: right;
+    max-width: 350px;
+    overflow: hidden;
+    padding: 0 0 40px 0;
+}
+
+.online-rates-block { width: 300px; padding: 0 0 25px 0; }
+
+
+.flex-caption { font-size: 1em; margin: -30px 0 0 0; }
+
+.block-inner { margin: 0 10px; }
+}
+@media only screen and (min-width:1025px) {
+/**
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete 
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *   
+ * - There is an scss (SASS) version of this file in the /sass/ directory in your
+ *   sub-theme, if you set Compass to watch it or the directory this file will be
+ *   overwritten!
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+ 
+}
