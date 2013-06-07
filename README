@@ -2,3 +2,5 @@ Hello, I am creating README file using VIM - super duper text editor
 
 This is where I add more detail to my commit message.
  Comprenez-vous? Bueno.   
+
+ - I included a starter database to get your started with your new Drupal 7 Business website. it's in the root folder named "a starter database". This is database backup file created with Backup Migrate module. Restore this file to see the starter business content.
